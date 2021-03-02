@@ -1,10 +1,20 @@
 import React from 'react';
+import './HomePage.css';
+import ImageSliderPage from './../imageSlider/ImageSliderPage'
+import AboutPage from './../about/AboutPage'
+import NavBarComp from './../components/NavBarComp'
 
 const HomePage = () => (
-    <React.Fragment>
-        <h1> Dream-Render </h1>
+    <>
+        <NavBarComp />
+        <br></br>
+        <h3>Welcome to our page!</h3>
+        <ImageSliderPage/>
+        <br></br>
+        <AboutPage />
+        
 
-    </React.Fragment>
-    
+    </>
+
 );
 export default HomePage;

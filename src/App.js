@@ -1,5 +1,7 @@
 import './App.css';
 import HomePage from './home/HomePage';
+import EnquiryPage from './enquiry/EnquiryPage';
+import ContactPage from './contact/ContactPage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -11,7 +13,8 @@ function App() {
     <Router>
       <div className="App">
         <Route path="/" component = {HomePage} exact/>
-        
+        <Route path="/enquiry" component = {EnquiryPage} exact/>
+        <Route path="/contactus" component = {ContactPage} exact/>
       </div>
     </Router>
   );

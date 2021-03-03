@@ -1,0 +1,13 @@
+#navbarheading{
+    color:white;
+    align-self: center;
+    padding-right: 200px;
+    font-family: cursive;
+    font-size: 30px;
+}
+#navbar{
+    background-color: rgb(113, 121, 129);
+}
+#logo {
+    color: rgb(0, 217, 255);
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import ImageSliderPage from './../imageSlider/ImageSliderPage'
+import ImageSliderPage from '../components/imageSlider/ImageSliderPage'
 import AboutPage from './../about/AboutPage'
 import NavBarComp from './../components/NavBarComp'
 

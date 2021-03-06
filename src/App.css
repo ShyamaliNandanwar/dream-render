@@ -1,6 +1,12 @@
 .App {
   text-align: center;
-}
+  /* background-color: rgb(241, 234, 127); */
+  /* background-image: url("http://artic3d.weebly.com/uploads/6/9/3/7/69379487/render-arquitectura-artic-3d-vb1h_orig.jpg");
+  
+  /* Add the blur effect */
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
+} 
 
 .App-logo {
   height: 40vmin;

@@ -5,9 +5,9 @@
     font-family: cursive;
     font-size: 30px;
 }
-#navbar{
-    background-color: rgb(113, 121, 129);
+.NavbarComp{
+    background-color: rgb(218, 14, 58);
 }
 #logo {
-    color: rgb(0, 217, 255);
+    color: rgb(139, 92, 226);
 }

@@ -3,13 +3,13 @@ import './NavBarComp.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 const NavBarComp = () => (
     <>
-        <Navbar bg="light" expand="lg" variant="light" >
-            <Navbar.Brand href="#home" id="logo">Dream-Render</Navbar.Brand>
+        <Navbar bg="dark" expand="lg" variant="dark" >
+            <Navbar.Brand href="/"id="logo">Dream-Render</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Explore</Nav.Link>
+                    {/* <Nav.Link href="/">Home</Nav.Link> */}
+                    <Nav.Link href="/explore">Explore</Nav.Link>
                     <NavDropdown title="Our Services" id="basic-nav-dropdown" >
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -22,7 +22,7 @@ const NavBarComp = () => (
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search..." className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
+                    <Button variant="outline-light">Search</Button>
                 </Form>
             </Navbar.Collapse>
         </Navbar>

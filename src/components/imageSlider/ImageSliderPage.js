@@ -7,25 +7,33 @@ import KidsLR from './images/4_KIDS BEDROOM 2.jpg'
 import Interior from './images/5_RUSTIC INTERIOR PS.jpg'
 import Reading from './images/6_READING SPACE.jpg'
 import Bath from './images/bath .jpg'
+// ,KidsLR,Interior,Reading,Bath
 export class ImageSliderPage extends Component {
   render() {
-
+    // const imagess = {"path" : [`${JapaneseLR}`, `${EuropeLR}`]};
     return (
-      <Carousel >
-        <Carousel.Item interval={5000}>
-          <img
+      <>
+      <div style={{backgroundImage: "url('" + `${EuropeLR}`+"')"}}class="background-image" ></div>
+      <Carousel fade>
+        {/* {imagess.path.map((i) => {
+          return */}
+        <Carousel.Item interval={4000} >
+            
+            <img
             className="d-block w-100"
             src={JapaneseLR}
-            alt="First slide"
+            alt="First slide"/>
             
-          />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={5000}>
-          <img
+        
+       </Carousel.Item>
+        
+        
+        <Carousel.Item interval={4000}>
+          <img 
             className="d-block w-100"
             src={EuropeLR}
             alt="Second slide"
@@ -36,7 +44,7 @@ export class ImageSliderPage extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
             src={KidsLR}
@@ -48,7 +56,7 @@ export class ImageSliderPage extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
             src={Interior}
@@ -60,7 +68,7 @@ export class ImageSliderPage extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
             src={Reading}
@@ -71,7 +79,7 @@ export class ImageSliderPage extends Component {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
             src={Bath}
@@ -81,8 +89,10 @@ export class ImageSliderPage extends Component {
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> 
+
       </Carousel>
+      </>
     );
   }
 

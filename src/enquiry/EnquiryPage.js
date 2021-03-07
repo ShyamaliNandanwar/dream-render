@@ -47,7 +47,7 @@ export class EnquiryPage extends Component {
 
                     <Form.Group as={Row}>
                         <Col sm={{ span: 1, offset: 2 }}>
-                            <Button variant="outline-secondary" type="submit">Submit</Button>
+                            <Button variant="dark" type="submit">Submit</Button>
                         </Col>
                     </Form.Group>
                 </Form>

@@ -2,13 +2,7 @@ import React from 'react';
 import './NavBarComp.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 
-function changeBackground(e) {
-    e.target.style.background = 'red';
-  }
 
-  function originalBackground(e) {
-    e.target.style.background = 'green';
-  }
 const NavBarComp = () => (
     <>
         <Navbar className="color-nav" expand="lg" variant="dark" >

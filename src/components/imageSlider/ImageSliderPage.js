@@ -13,7 +13,9 @@ export class ImageSliderPage extends Component {
     // const imagess = {"path" : [`${JapaneseLR}`, `${EuropeLR}`]};
     return (
       <>
+
       <div style={{backgroundImage: "url('" + `${EuropeLR}`+"')"}}class="background-image" ></div>
+
       <Carousel fade>
         {/* {imagess.path.map((i) => {
           return */}
@@ -21,7 +23,7 @@ export class ImageSliderPage extends Component {
             
             <img
             className="d-block w-100"
-            src={JapaneseLR}
+            src= {JapaneseLR}
             alt="First slide"/>
             
           <Carousel.Caption>

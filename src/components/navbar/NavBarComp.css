@@ -1,13 +1,18 @@
-#navbarheading{
-    color:white;
-    align-self: center;
-    padding-right: 200px;
-    font-family: cursive;
-    font-size: 30px;
-}
-.NavbarComp{
-    background-color: rgb(218, 14, 58);
+.color-nav{
+    background-image: linear-gradient(to left, rgb(92, 88, 83), rgb(223, 197, 164));
+    /* background-color: rgb(209, 198, 191) !important; */
 }
 #logo {
-    color: rgb(139, 92, 226);
+    color: rgb(51, 70, 9);
 }
+.nav-link{
+    font-family: Papyrus ;
+    font-weight: bold;
+    color: #050505 !important;
+    
+  }
+  .nav-link:hover{
+    color: #fafafa !important;
+    font-weight: bolder;
+  }
+

@@ -1,9 +1,17 @@
 import React from 'react';
 import './NavBarComp.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+
+function changeBackground(e) {
+    e.target.style.background = 'red';
+  }
+
+  function originalBackground(e) {
+    e.target.style.background = 'green';
+  }
 const NavBarComp = () => (
     <>
-        <Navbar bg="dark" expand="lg" variant="dark" >
+        <Navbar className="color-nav" expand="lg" variant="dark" >
             <Navbar.Brand href="/"id="logo">Dream-Render</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -22,7 +30,7 @@ const NavBarComp = () => (
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search..." className="mr-sm-2" />
-                    <Button variant="outline-light">Search</Button>
+                    <Button className="search" variant="outline-light">Search</Button>
                 </Form>
             </Navbar.Collapse>
         </Navbar>

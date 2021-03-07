@@ -17,15 +17,15 @@ export class ContactPage extends Component {
                             <div align="left">
                                 <Card.Title id="card-title"> Rupal Nandanwar </Card.Title>
                                 <Card.Text>
-                                    <BusinessIcon id="icon" />
+                                    <BusinessIcon id="con-icon" />
                                     <label className="text">
                                         111, XYZ street, ABC CIRCLE, Nagpur - 0000000, Maharashtra, IN
                                     </label >
                                     <br />
-                                    <CallIcon id="icon" />
+                                    <CallIcon id="con-icon" />
                                     <label className="text">+91 99999 99999</label>
                                     <br />
-                                    <MailIcon id="icon" />
+                                    <MailIcon id="con-icon" />
                                     <label className="text"> abc@example.com</label>
                                     <br />
                                 </Card.Text>
@@ -38,15 +38,15 @@ export class ContactPage extends Component {
                             <div align="left">
                                 <Card.Title id="card-title"> Rupal Nandanwar </Card.Title>
                                 <Card.Text>
-                                    <BusinessIcon id="icon" />
+                                    <BusinessIcon id="con-icon" />
                                     <label className="text">
                                         111, XYZ street, ABC CIRCLE, Nagpur - 0000000, Maharashtra, IN
                                     </label >
                                     <br />
-                                    <CallIcon id="icon" />
+                                    <CallIcon id="con-icon" />
                                     <label className="text">+91 99999 99999</label>
                                     <br />
-                                    <MailIcon id="icon" />
+                                    <MailIcon id="con-icon" />
                                     <label className="text"> abc@example.com</label>
                                     <br />
                                 </Card.Text>

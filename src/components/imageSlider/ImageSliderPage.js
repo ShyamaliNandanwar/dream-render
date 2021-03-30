@@ -7,6 +7,7 @@ import KidsLR from './images/4_KIDS BEDROOM 2.jpg'
 import Interior from './images/5_RUSTIC INTERIOR PS.jpg'
 import Reading from './images/6_READING SPACE.jpg'
 import Bath from './images/bath .jpg'
+import Study from './images/SIZE REDUCED.jpg'
 // ,KidsLR,Interior,Reading,Bath
 export class ImageSliderPage extends Component {
   render() {
@@ -14,7 +15,7 @@ export class ImageSliderPage extends Component {
     return (
       <>
 
-      <div style={{backgroundImage: "url('" + `${EuropeLR}`+"')"}}class="background-image" ></div>
+      {/* <div style={{backgroundImage: "url('" + `${EuropeLR}`+"')"}}class="background-image" ></div> */}
 
       <Carousel fade>
         {/* {imagess.path.map((i) => {
@@ -23,7 +24,7 @@ export class ImageSliderPage extends Component {
             
             <img
             className="d-block w-100"
-            src= {JapaneseLR}
+            src= {Study}
             alt="First slide"/>
             
           <Carousel.Caption>
